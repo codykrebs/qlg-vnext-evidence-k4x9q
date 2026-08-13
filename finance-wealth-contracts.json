@@ -1,0 +1,177 @@
+{
+  "generatedAt": "2026-08-13T22:40:32.341Z",
+  "snapshot": {
+    "id": 52,
+    "asOf": "2026-08-13T11:30:52.864Z",
+    "timezone": "America/New_York",
+    "entity": "QLG Media",
+    "scope": "QBO nightly snapshot: A/R + A/P aging, bank, invoices, bills · CallGrid live · Wealth = personal statements only"
+  },
+  "pass": true,
+  "checks": [
+    {
+      "id": "finance-cash-equals-runway-opening",
+      "pass": true,
+      "values": {
+        "cashToday": 40717.16,
+        "runwayOpening": 40717.16
+      }
+    },
+    {
+      "id": "movements-applied-once",
+      "pass": true,
+      "values": {
+        "opening": 40717.16,
+        "signedSumUsd": -51993.17,
+        "ending": -11276.01
+      }
+    },
+    {
+      "id": "zero-min-endpoint-same-series",
+      "pass": true,
+      "values": {
+        "firstZeroCross": {
+          "date": "2026-08-16",
+          "balanceAfter": -26596.16
+        },
+        "minimum": {
+          "date": "2026-08-16",
+          "balance": -26596.16
+        },
+        "recomputed": {
+          "zero": "2026-08-16",
+          "minUsd": -26596.16,
+          "minDate": "2026-08-16"
+        }
+      }
+    },
+    {
+      "id": "out-of-horizon-excluded",
+      "pass": true,
+      "values": {
+        "beyondItems": 7,
+        "leaks": 0,
+        "beyondInTotal": 19718.03,
+        "beyondOutTotal": 39414.41
+      }
+    },
+    {
+      "id": "segment-sums",
+      "pass": true,
+      "values": {
+        "comingIn": {
+          "overdue": 24114.42,
+          "current": 69239.39,
+          "accruing": 33743.83,
+          "total": 127097.64
+        },
+        "goingOut": {
+          "overdue": 0,
+          "current": 140985,
+          "accruing": 33597.8,
+          "total": 174582.8
+        }
+      }
+    },
+    {
+      "id": "partner-sums",
+      "pass": true,
+      "values": {
+        "partnersArUsd": 93353.81,
+        "headlineInvoicedArUsd": 93353.81,
+        "partnersAccruingUsd": 33743.83,
+        "headlineAccruingUsd": 33743.83
+      }
+    },
+    {
+      "id": "finance-billing-pastdue-parity",
+      "pass": true,
+      "values": {
+        "financePastDueAr": 24114.42,
+        "billingLateIn": 24114.42,
+        "financePastDueAp": 0,
+        "billingLateOut": 0,
+        "snapshotId": 52
+      }
+    },
+    {
+      "id": "contribution-not-labeled-profit",
+      "pass": true,
+      "values": {
+        "rendersContributionLabel": true,
+        "statesExcludedLayers": true
+      },
+      "note": "source-level contract on the rendered label strings"
+    },
+    {
+      "id": "wealth-personal-only-scope",
+      "pass": true,
+      "values": {
+        "personalReceivables": "not-tracked"
+      },
+      "note": "business receivables excluded from Wealth by construction; QLG A/R lives in Finance"
+    },
+    {
+      "id": "net-worth-unavailable-not-fabricated",
+      "pass": true,
+      "values": {
+        "netWorth": null,
+        "knownCashLessDebt": -327760.68,
+        "liquidCash": 7311.94,
+        "obligations": 335072.62
+      }
+    },
+    {
+      "id": "chart-endpoint-vs-headline-disclosed",
+      "pass": true,
+      "values": {
+        "headlineLiquid": 7311.94,
+        "headlineAsOf": "2026-07-24",
+        "endpointTotal": 6405.55,
+        "endpointDate": "2026-07-24",
+        "endpointCoverage": "3/5",
+        "endpointPartial": true,
+        "disclosureRendered": true
+      },
+      "note": "endpoint renders its own date + account coverage + partial flag beside the value"
+    },
+    {
+      "id": "allocation-cents-sum",
+      "pass": true,
+      "values": {
+        "slices": [
+          {
+            "name": "Joint checking (with Diego)",
+            "balance": 5201.24
+          },
+          {
+            "name": "Chase Personal Checking",
+            "balance": 1122.81
+          },
+          {
+            "name": "Targeted Consumer checking",
+            "balance": 815.74
+          },
+          {
+            "name": "Utah Power savings",
+            "balance": 90.65
+          },
+          {
+            "name": "BofA personal checking",
+            "balance": 81.5
+          }
+        ],
+        "liquidCash": 7311.94
+      }
+    },
+    {
+      "id": "maturity-component-sums",
+      "pass": true,
+      "values": {
+        "statementFedUsd": 35536.19,
+        "manualUsd": 299536.43,
+        "totalUsd": 335072.62
+      }
+    }
+  ]
+}

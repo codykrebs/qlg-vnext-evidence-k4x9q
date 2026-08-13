@@ -1,0 +1,79 @@
+[
+  {
+    "anchor": "truth strip bottom",
+    "ref": 188,
+    "impl": 187,
+    "delta": -1,
+    "pass": true
+  },
+  {
+    "anchor": "stage top",
+    "ref": 188,
+    "impl": 191,
+    "delta": 3,
+    "pass": true
+  },
+  {
+    "anchor": "stage bottom",
+    "ref": 308,
+    "impl": 312,
+    "delta": 4,
+    "pass": true
+  },
+  {
+    "anchor": "cards top",
+    "ref": 316,
+    "impl": 316,
+    "delta": 0,
+    "pass": true
+  },
+  {
+    "anchor": "cards bottom",
+    "ref": 426,
+    "impl": 426,
+    "delta": 0,
+    "pass": true
+  },
+  {
+    "anchor": "flow top",
+    "ref": 432,
+    "impl": 430,
+    "delta": -2,
+    "pass": true
+  },
+  {
+    "anchor": "flow bottom",
+    "ref": 660,
+    "impl": 669,
+    "delta": 9,
+    "pass": true
+  },
+  {
+    "anchor": "queues top",
+    "ref": 664,
+    "impl": 673,
+    "delta": 9,
+    "pass": true
+  },
+  {
+    "anchor": "queues bottom",
+    "ref": 938,
+    "impl": 949,
+    "delta": 11,
+    "pass": true
+  },
+  {
+    "anchor": "tabs top",
+    "ref": 945,
+    "impl": 953,
+    "delta": 8,
+    "pass": true
+  },
+  {
+    "anchor": "tabs bottom",
+    "ref": 1003,
+    "impl": 1011,
+    "delta": 8,
+    "pass": true
+  }
+]

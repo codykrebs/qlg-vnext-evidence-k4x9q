@@ -1,16 +1,318 @@
 {
-  "generatedAt": "2026-08-13T22:40:32.341Z",
+  "generatedAt": "2026-08-13T23:32:39.948Z",
+  "implementationCommit": "b6e3b5b7db97af8731af5f810ce63702b58620a7",
+  "generatorCommand": "npx tsx scripts/generate-fw-contracts.ts",
+  "invariantCommand": "npx tsx --test \"lib/finance/__tests__/runway-marks.test.ts\" \"lib/wealth/__tests__/position-view.test.ts\"",
+  "frozenInputHash": "2ae36831d3d62392bab878c7c4033987a649fe11314da03f32bd85fc65e3bff0",
   "snapshot": {
     "id": 52,
     "asOf": "2026-08-13T11:30:52.864Z",
     "timezone": "America/New_York",
-    "entity": "QLG Media",
+    "businessEntity": "QLG Media",
+    "wealthEntity": "personal:codykrebs",
     "scope": "QBO nightly snapshot: A/R + A/P aging, bank, invoices, bills · CallGrid live · Wealth = personal statements only"
+  },
+  "movementLedger": {
+    "count": 31,
+    "digest": "7d1680745914b836",
+    "movements": [
+      {
+        "uid": "H0:2026-08-16:Cymry Marketing LLC - Vendor:out4110998",
+        "name": "Cymry Marketing LLC - Vendor",
+        "effectiveDate": "2026-08-16",
+        "signedCents": -4110998,
+        "dated": true,
+        "horizonMember": true,
+        "appliedCount": 1
+      },
+      {
+        "uid": "H1:2026-08-16:Karolis:out3779131",
+        "name": "Karolis",
+        "effectiveDate": "2026-08-16",
+        "signedCents": -3779131,
+        "dated": true,
+        "horizonMember": true,
+        "appliedCount": 1
+      },
+      {
+        "uid": "H2:2026-08-16:WeGenerate:in2753649",
+        "name": "WeGenerate",
+        "effectiveDate": "2026-08-16",
+        "signedCents": 2753649,
+        "dated": true,
+        "horizonMember": true,
+        "appliedCount": 1
+      },
+      {
+        "uid": "H3:2026-08-15:SelectQuote Insurance Services:in1260000",
+        "name": "SelectQuote Insurance Services",
+        "effectiveDate": "2026-08-15",
+        "signedCents": 1260000,
+        "dated": true,
+        "horizonMember": true,
+        "appliedCount": 1
+      },
+      {
+        "uid": "H4:2026-08-16:Cymry Marketing LLC:in435283",
+        "name": "Cymry Marketing LLC",
+        "effectiveDate": "2026-08-16",
+        "signedCents": 435283,
+        "dated": true,
+        "horizonMember": true,
+        "appliedCount": 1
+      },
+      {
+        "uid": "H5:2026-08-16:Advance Client Solutions (ACS):in78600",
+        "name": "Advance Client Solutions (ACS)",
+        "effectiveDate": "2026-08-16",
+        "signedCents": 78600,
+        "dated": true,
+        "horizonMember": true,
+        "appliedCount": 1
+      },
+      {
+        "uid": "H6:2026-08-11:Worthman Watches:out62537",
+        "name": "Worthman Watches",
+        "effectiveDate": "2026-08-11",
+        "signedCents": -62537,
+        "dated": true,
+        "horizonMember": true,
+        "appliedCount": 1
+      },
+      {
+        "uid": "H7:2026-07-28:Worthman Watches:out38666",
+        "name": "Worthman Watches",
+        "effectiveDate": "2026-07-28",
+        "signedCents": -38666,
+        "dated": true,
+        "horizonMember": true,
+        "appliedCount": 1
+      },
+      {
+        "uid": "H8:2026-08-16:Sabal/Synergy:in36000",
+        "name": "Sabal/Synergy",
+        "effectiveDate": "2026-08-16",
+        "signedCents": 36000,
+        "dated": true,
+        "horizonMember": true,
+        "appliedCount": 1
+      },
+      {
+        "uid": "H9:2026-08-18:AgencyPro LLC (ACA):in1798800",
+        "name": "AgencyPro LLC (ACA)",
+        "effectiveDate": "2026-08-18",
+        "signedCents": 1798800,
+        "dated": true,
+        "horizonMember": true,
+        "appliedCount": 1
+      },
+      {
+        "uid": "H10:2026-08-23:Sabal/Synergy:in348000",
+        "name": "Sabal/Synergy",
+        "effectiveDate": "2026-08-23",
+        "signedCents": 348000,
+        "dated": false,
+        "horizonMember": true,
+        "appliedCount": 1
+      },
+      {
+        "uid": "H11:2026-08-18:Worthman Watches:out123322",
+        "name": "Worthman Watches",
+        "effectiveDate": "2026-08-18",
+        "signedCents": -123322,
+        "dated": true,
+        "horizonMember": true,
+        "appliedCount": 1
+      },
+      {
+        "uid": "H12:2026-08-18:Persistent Policies:in84504",
+        "name": "Persistent Policies",
+        "effectiveDate": "2026-08-18",
+        "signedCents": 84504,
+        "dated": true,
+        "horizonMember": true,
+        "appliedCount": 1
+      },
+      {
+        "uid": "H13:2026-08-18:Moonlime - ACA/FE:in24468",
+        "name": "Moonlime - ACA/FE",
+        "effectiveDate": "2026-08-18",
+        "signedCents": 24468,
+        "dated": true,
+        "horizonMember": true,
+        "appliedCount": 1
+      },
+      {
+        "uid": "H14:2026-08-24:AgencyPro LLC (ACA):in1282800",
+        "name": "AgencyPro LLC (ACA)",
+        "effectiveDate": "2026-08-24",
+        "signedCents": 1282800,
+        "dated": false,
+        "horizonMember": true,
+        "appliedCount": 1
+      },
+      {
+        "uid": "H15:2026-08-26:Worthman Watches:out80307",
+        "name": "Worthman Watches",
+        "effectiveDate": "2026-08-26",
+        "signedCents": -80307,
+        "dated": true,
+        "horizonMember": true,
+        "appliedCount": 1
+      },
+      {
+        "uid": "H16:2026-08-26:Verve Health Solutions (STRM):in77000",
+        "name": "Verve Health Solutions (STRM)",
+        "effectiveDate": "2026-08-26",
+        "signedCents": 77000,
+        "dated": true,
+        "horizonMember": true,
+        "appliedCount": 1
+      },
+      {
+        "uid": "H17:2026-08-26:Persistent Policies:in35280",
+        "name": "Persistent Policies",
+        "effectiveDate": "2026-08-26",
+        "signedCents": 35280,
+        "dated": true,
+        "horizonMember": true,
+        "appliedCount": 1
+      },
+      {
+        "uid": "H18:2026-08-26:Moonlime - ACA/FE:in13402",
+        "name": "Moonlime - ACA/FE",
+        "effectiveDate": "2026-08-26",
+        "signedCents": 13402,
+        "dated": true,
+        "horizonMember": true,
+        "appliedCount": 1
+      },
+      {
+        "uid": "H19:2026-09-01:vendor cycles accruing:out3359780",
+        "name": "vendor cycles accruing",
+        "effectiveDate": "2026-09-01",
+        "signedCents": -3359780,
+        "dated": false,
+        "horizonMember": true,
+        "appliedCount": 1
+      },
+      {
+        "uid": "H20:2026-09-02:Scalability:out1974142",
+        "name": "Scalability",
+        "effectiveDate": "2026-09-02",
+        "signedCents": -1974142,
+        "dated": true,
+        "horizonMember": true,
+        "appliedCount": 1
+      },
+      {
+        "uid": "H21:2026-09-01:Verve Health Solutions (STRM):in56000",
+        "name": "Verve Health Solutions (STRM)",
+        "effectiveDate": "2026-09-01",
+        "signedCents": 56000,
+        "dated": false,
+        "horizonMember": true,
+        "appliedCount": 1
+      },
+      {
+        "uid": "H22:2026-09-01:Persistent Policies:in43680",
+        "name": "Persistent Policies",
+        "effectiveDate": "2026-09-01",
+        "signedCents": 43680,
+        "dated": false,
+        "horizonMember": true,
+        "appliedCount": 1
+      },
+      {
+        "uid": "H23:2026-09-01:Moonlime - ACA/FE:in5600",
+        "name": "Moonlime - ACA/FE",
+        "effectiveDate": "2026-09-01",
+        "signedCents": 5600,
+        "dated": false,
+        "horizonMember": true,
+        "appliedCount": 1
+      },
+      {
+        "uid": "B0:2026-09-15:Karolis:out2419048",
+        "name": "Karolis",
+        "effectiveDate": "2026-09-15",
+        "signedCents": -2419048,
+        "dated": true,
+        "horizonMember": false,
+        "appliedCount": 0
+      },
+      {
+        "uid": "B1:2026-09-26:Karolis:out1522393",
+        "name": "Karolis",
+        "effectiveDate": "2026-09-26",
+        "signedCents": -1522393,
+        "dated": true,
+        "horizonMember": false,
+        "appliedCount": 0
+      },
+      {
+        "uid": "B2:2026-09-16:WeGenerate:in1227255",
+        "name": "WeGenerate",
+        "effectiveDate": "2026-09-16",
+        "signedCents": 1227255,
+        "dated": false,
+        "horizonMember": false,
+        "appliedCount": 0
+      },
+      {
+        "uid": "B3:2026-09-15:SelectQuote Insurance Services:in330000",
+        "name": "SelectQuote Insurance Services",
+        "effectiveDate": "2026-09-15",
+        "signedCents": 330000,
+        "dated": true,
+        "horizonMember": false,
+        "appliedCount": 0
+      },
+      {
+        "uid": "B4:2026-09-16:Cymry Marketing LLC:in198548",
+        "name": "Cymry Marketing LLC",
+        "effectiveDate": "2026-09-16",
+        "signedCents": 198548,
+        "dated": false,
+        "horizonMember": false,
+        "appliedCount": 0
+      },
+      {
+        "uid": "B5:2026-10-16:SelectQuote Insurance Services:in120000",
+        "name": "SelectQuote Insurance Services",
+        "effectiveDate": "2026-10-16",
+        "signedCents": 120000,
+        "dated": false,
+        "horizonMember": false,
+        "appliedCount": 0
+      },
+      {
+        "uid": "B6:2026-09-16:Advance Client Solutions (ACS):in96000",
+        "name": "Advance Client Solutions (ACS)",
+        "effectiveDate": "2026-09-16",
+        "signedCents": 96000,
+        "dated": false,
+        "horizonMember": false,
+        "appliedCount": 0
+      }
+    ]
   },
   "pass": true,
   "checks": [
     {
+      "id": "invariant-suite",
+      "entity": "code",
+      "pass": true,
+      "values": {
+        "command": "npx tsx --test \"lib/finance/__tests__/runway-marks.test.ts\" \"lib/wealth/__tests__/position-view.test.ts\"",
+        "pass": 11,
+        "fail": 0,
+        "exitCode": 0
+      }
+    },
+    {
       "id": "finance-cash-equals-runway-opening",
+      "entity": "QLG Media",
       "pass": true,
       "values": {
         "cashToday": 40717.16,
@@ -19,51 +321,93 @@
     },
     {
       "id": "movements-applied-once",
+      "entity": "QLG Media",
       "pass": true,
       "values": {
-        "opening": 40717.16,
-        "signedSumUsd": -51993.17,
-        "ending": -11276.01
+        "movementCount": 24,
+        "ledgerDigest": "7d1680745914b836",
+        "ending": -11241.01
       }
     },
     {
-      "id": "zero-min-endpoint-same-series",
+      "id": "daily-series-crossing-min-endpoint-recomputed",
+      "entity": "QLG Media",
       "pass": true,
       "values": {
+        "recomputedDaily": [
+          {
+            "date": "2026-07-28",
+            "closeUsd": 40330.5
+          },
+          {
+            "date": "2026-08-11",
+            "closeUsd": 39705.13
+          },
+          {
+            "date": "2026-08-15",
+            "closeUsd": 52305.13
+          },
+          {
+            "date": "2026-08-16",
+            "closeUsd": 6439.16
+          },
+          {
+            "date": "2026-08-18",
+            "closeUsd": 24283.66
+          },
+          {
+            "date": "2026-08-23",
+            "closeUsd": 27763.66
+          },
+          {
+            "date": "2026-08-24",
+            "closeUsd": 40591.66
+          },
+          {
+            "date": "2026-08-26",
+            "closeUsd": 41045.41
+          },
+          {
+            "date": "2026-09-01",
+            "closeUsd": 8500.41
+          },
+          {
+            "date": "2026-09-02",
+            "closeUsd": -11241.01
+          }
+        ],
         "firstZeroCross": {
-          "date": "2026-08-16",
-          "balanceAfter": -26596.16
+          "date": "2026-09-02",
+          "closeBalance": -11241.01
         },
-        "minimum": {
-          "date": "2026-08-16",
-          "balance": -26596.16
+        "minimumDailyClose": {
+          "date": "2026-09-02",
+          "balance": -11241.01
         },
-        "recomputed": {
-          "zero": "2026-08-16",
-          "minUsd": -26596.16,
-          "minDate": "2026-08-16"
-        }
-      }
+        "endpoint": -11241.01
+      },
+      "note": "series is net-daily closes — order-invariant; intra-day sequences are not represented (no settlement times exist in the source)"
     },
     {
       "id": "out-of-horizon-excluded",
+      "entity": "QLG Media",
       "pass": true,
       "values": {
-        "beyondItems": 7,
-        "leaks": 0,
+        "beyondCount": 7,
         "beyondInTotal": 19718.03,
         "beyondOutTotal": 39414.41
       }
     },
     {
       "id": "segment-sums",
+      "entity": "QLG Media",
       "pass": true,
       "values": {
         "comingIn": {
           "overdue": 24114.42,
           "current": 69239.39,
-          "accruing": 33743.83,
-          "total": 127097.64
+          "accruing": 33778.83,
+          "total": 127132.64
         },
         "goingOut": {
           "overdue": 0,
@@ -75,103 +419,212 @@
     },
     {
       "id": "partner-sums",
+      "entity": "QLG Media",
       "pass": true,
       "values": {
-        "partnersArUsd": 93353.81,
-        "headlineInvoicedArUsd": 93353.81,
-        "partnersAccruingUsd": 33743.83,
-        "headlineAccruingUsd": 33743.83
+        "partnerRowCount": 12,
+        "partnersArCents": 9335381,
+        "headlineInvoicedArCents": 9335381,
+        "partnersAccruingCents": 3377883,
+        "headlineAccruingCents": 3377883
+      }
+    },
+    {
+      "id": "finance-billing-identical-snapshot-scope",
+      "entity": "QLG Media",
+      "pass": true,
+      "values": {
+        "finance": {
+          "consumer": "finance",
+          "snapshotId": 52,
+          "asOf": "2026-08-13T11:30:52.864Z",
+          "timezone": "America/New_York",
+          "entity": "QLG Media",
+          "agingDefinition": "QBO aging summary rows per partner: overdue = max(0, total − current bucket); current = total − overdue",
+          "completeness": {
+            "arAgingPresent": true,
+            "apAgingPresent": true
+          },
+          "arRowCount": 12,
+          "apRowCount": 5,
+          "arRowSumCents": 9335381,
+          "apRowSumCents": 14098500
+        },
+        "billing": {
+          "consumer": "billing",
+          "snapshotId": 52,
+          "asOf": "2026-08-13T11:30:52.864Z",
+          "timezone": "America/New_York",
+          "entity": "QLG Media",
+          "agingDefinition": "QBO aging summary rows per partner: overdue = max(0, total − current bucket); current = total − overdue",
+          "completeness": {
+            "arAgingPresent": true,
+            "apAgingPresent": true
+          },
+          "arRowCount": 12,
+          "apRowCount": 5,
+          "arRowSumCents": 9335381,
+          "apRowSumCents": 14098500
+        }
       }
     },
     {
       "id": "finance-billing-pastdue-parity",
+      "entity": "QLG Media",
       "pass": true,
       "values": {
-        "financePastDueAr": 24114.42,
-        "billingLateIn": 24114.42,
-        "financePastDueAp": 0,
-        "billingLateOut": 0,
-        "snapshotId": 52
+        "financePastDueArCents": 2411442,
+        "billingLateInCents": 2411442,
+        "financePastDueApCents": 0,
+        "billingLateOutCents": 0,
+        "apOverdueRecomputedFromAllRowsCents": 0,
+        "apAgingPresent": true,
+        "apRowCount": 5
+      },
+      "note": "a $0 overdue A/P verdict requires apAgingPresent=true and the recomputation over every A/P row — absence would report unknown, not zero"
+    },
+    {
+      "id": "contribution-metric-contract",
+      "entity": "QLG Media",
+      "pass": true,
+      "values": {
+        "metricKey": "mtd_operating_contribution",
+        "formula": "revenue − vendor_payouts − telco − media_spend (accrual basis)",
+        "includedLayers": [
+          "revenue",
+          "vendor_payouts",
+          "telco",
+          "media_spend"
+        ],
+        "excludedLayers": [
+          "overhead",
+          "payroll",
+          "taxes"
+        ],
+        "forbiddenLabels": [
+          "profit",
+          "P&L",
+          "net profit",
+          "operating profit"
+        ],
+        "valueCents": 1609963
       }
     },
     {
-      "id": "contribution-not-labeled-profit",
-      "pass": true,
-      "values": {
-        "rendersContributionLabel": true,
-        "statesExcludedLayers": true
-      },
-      "note": "source-level contract on the rendered label strings"
-    },
-    {
       "id": "wealth-personal-only-scope",
+      "entity": "personal:codykrebs",
       "pass": true,
       "values": {
-        "personalReceivables": "not-tracked"
-      },
-      "note": "business receivables excluded from Wealth by construction; QLG A/R lives in Finance"
+        "personalReceivables": "not-tracked",
+        "businessAccountExcluded": "Paid from business"
+      }
     },
     {
       "id": "net-worth-unavailable-not-fabricated",
+      "entity": "personal:codykrebs",
       "pass": true,
       "values": {
         "netWorth": null,
-        "knownCashLessDebt": -327760.68,
-        "liquidCash": 7311.94,
-        "obligations": 335072.62
+        "knownCashLessDebtCents": -32776068,
+        "liquidCashCents": 731194,
+        "obligationsCents": 33507262
       }
     },
     {
       "id": "chart-endpoint-vs-headline-disclosed",
+      "entity": "personal:codykrebs",
       "pass": true,
       "values": {
-        "headlineLiquid": 7311.94,
+        "headlineLiquidCents": 731194,
         "headlineAsOf": "2026-07-24",
-        "endpointTotal": 6405.55,
+        "headlineAccounts": 5,
+        "endpointCents": 640555,
         "endpointDate": "2026-07-24",
         "endpointCoverage": "3/5",
-        "endpointPartial": true,
-        "disclosureRendered": true
+        "endpointPartial": true
       },
-      "note": "endpoint renders its own date + account coverage + partial flag beside the value"
+      "note": "the chart endpoint renders its close date + account coverage + partial flag beside the value"
     },
     {
       "id": "allocation-cents-sum",
+      "entity": "personal:codykrebs",
       "pass": true,
       "values": {
-        "slices": [
+        "sliceCents": [
           {
             "name": "Joint checking (with Diego)",
-            "balance": 5201.24
+            "cents": 520124,
+            "asOf": "2026-07-20"
           },
           {
             "name": "Chase Personal Checking",
-            "balance": 1122.81
+            "cents": 112281,
+            "asOf": "2026-07-20"
           },
           {
             "name": "Targeted Consumer checking",
-            "balance": 815.74
+            "cents": 81574,
+            "asOf": "2026-06-30"
           },
           {
             "name": "Utah Power savings",
-            "balance": 90.65
+            "cents": 9065,
+            "asOf": "2025-06-30"
           },
           {
             "name": "BofA personal checking",
-            "balance": 81.5
+            "cents": 8150,
+            "asOf": "2026-07-24"
           }
         ],
-        "liquidCash": 7311.94
+        "liquidCashCents": 731194
       }
     },
     {
-      "id": "maturity-component-sums",
+      "id": "obligation-maturity-components",
+      "entity": "personal:codykrebs",
       "pass": true,
       "values": {
-        "statementFedUsd": 35536.19,
-        "manualUsd": 299536.43,
-        "totalUsd": 335072.62
-      }
+        "items": [
+          {
+            "name": "QLG business loan (QuickBooks)",
+            "source": "manual",
+            "asOf": "2026-07-30",
+            "currentCents": 15644284,
+            "maturity": "manual entry (staleness = age of asOf)"
+          },
+          {
+            "name": "IRS balance — tax year 2024",
+            "source": "manual",
+            "asOf": "2026-07-30",
+            "currentCents": 10776379,
+            "maturity": "manual entry (staleness = age of asOf)"
+          },
+          {
+            "name": "IRS balance — tax year 2022",
+            "source": "manual",
+            "asOf": "2026-07-30",
+            "currentCents": 3532980,
+            "maturity": "manual entry (staleness = age of asOf)"
+          },
+          {
+            "name": "Targeted Consumer card",
+            "source": "statements",
+            "asOf": "2026-07-12",
+            "currentCents": 3385428,
+            "maturity": "statement-close observed"
+          },
+          {
+            "name": "Chase Marriott Bonvoy card",
+            "source": "statements",
+            "asOf": "2026-07-08",
+            "currentCents": 168191,
+            "maturity": "statement-close observed"
+          }
+        ],
+        "totalCents": 33507262
+      },
+      "note": "unknown valuation dates remain 'unknown' — never coerced to a date or zero"
     }
   ]
 }

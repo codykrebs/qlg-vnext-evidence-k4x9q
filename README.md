@@ -1,5 +1,18 @@
 # QLG Intelligence vNext — visual-fidelity evidence
 
+## scoreboard-yesterday/ · scoreboard-mtd/ · pacing/ — operating-curve family — 2026-08-13
+
+Captured from Netlify draft `6a7e2c41431815c1671ff761` (commit `5636328`),
+same capture conditions as billing/. Each folder: `desktop-1536x1024.png`,
+`mobile-390x844.png`, and `signature-curve.png` (mockup-04 operating-curve
+panel above the teal separator, this route's curve/ramp panel below —
+04 is the binding grammar; Yesterday/MTD/Pacing have no per-route mockup).
+Data-driven notes: Yesterday shows no expected band (the 14-day baseline is
+anchored to today's weekday — no honest band exists for a completed day);
+MTD comparator is the prior month cut at the same day-of-month; Pacing's
+projected close is the canonical readout line, and its What-changed rail is
+anomalies first, then the largest meaningful source deviations (five total).
+
 Evidence captures for the QLG Intelligence dashboard redesign (mockups are the
 binding visual references; all rendered numbers are live runtime data, never
 mockup values). One folder per route as each calibration pass lands.

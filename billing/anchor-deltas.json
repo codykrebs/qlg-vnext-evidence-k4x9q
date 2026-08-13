@@ -2,57 +2,57 @@
   {
     "anchor": "truth strip bottom",
     "ref": 188,
-    "impl": 187,
-    "delta": -1,
+    "impl": 185,
+    "delta": -3,
     "pass": true
   },
   {
     "anchor": "stage top",
     "ref": 188,
-    "impl": 191,
-    "delta": 3,
+    "impl": 189,
+    "delta": 1,
     "pass": true
   },
   {
     "anchor": "stage bottom",
     "ref": 308,
-    "impl": 312,
-    "delta": 4,
+    "impl": 309,
+    "delta": 1,
     "pass": true
   },
   {
     "anchor": "cards top",
     "ref": 316,
-    "impl": 316,
-    "delta": 0,
+    "impl": 313,
+    "delta": -3,
     "pass": true
   },
   {
     "anchor": "cards bottom",
     "ref": 426,
-    "impl": 426,
-    "delta": 0,
+    "impl": 423,
+    "delta": -3,
     "pass": true
   },
   {
     "anchor": "flow top",
     "ref": 432,
-    "impl": 430,
-    "delta": -2,
+    "impl": 427,
+    "delta": -5,
     "pass": true
   },
   {
     "anchor": "flow bottom",
     "ref": 660,
-    "impl": 669,
-    "delta": 9,
+    "impl": 666,
+    "delta": 6,
     "pass": true
   },
   {
     "anchor": "queues top",
     "ref": 664,
-    "impl": 673,
-    "delta": 9,
+    "impl": 670,
+    "delta": 6,
     "pass": true
   },
   {

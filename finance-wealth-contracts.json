@@ -1,9 +1,10 @@
 {
-  "generatedAt": "2026-08-13T23:32:39.948Z",
-  "implementationCommit": "b6e3b5b7db97af8731af5f810ce63702b58620a7",
+  "generatedAt": "2026-08-14T00:21:40.827Z",
+  "implementationCommit": "26f5c4e33d1f59fa6e999d653481c114a393d29d",
   "generatorCommand": "npx tsx scripts/generate-fw-contracts.ts",
   "invariantCommand": "npx tsx --test \"lib/finance/__tests__/runway-marks.test.ts\" \"lib/wealth/__tests__/position-view.test.ts\"",
-  "frozenInputHash": "2ae36831d3d62392bab878c7c4033987a649fe11314da03f32bd85fc65e3bff0",
+  "frozenInputHash": "ee76b39d563c3a3dd3c12e0a704bcc97ea1346c8448ba5cca0a74f4b343b26d1",
+  "forecastStart": "2026-08-13",
   "snapshot": {
     "id": 52,
     "asOf": "2026-08-13T11:30:52.864Z",
@@ -14,282 +15,344 @@
   },
   "movementLedger": {
     "count": 31,
-    "digest": "7d1680745914b836",
+    "digest": "5192d4b853e16a9f",
     "movements": [
       {
-        "uid": "H0:2026-08-16:Cymry Marketing LLC - Vendor:out4110998",
+        "uid": "baf159c893289c75",
         "name": "Cymry Marketing LLC - Vendor",
+        "sourceDue": "2026-08-16",
         "effectiveDate": "2026-08-16",
+        "rescheduledFromOverdue": false,
         "signedCents": -4110998,
         "dated": true,
         "horizonMember": true,
         "appliedCount": 1
       },
       {
-        "uid": "H1:2026-08-16:Karolis:out3779131",
+        "uid": "ffcfbb7adf5b8f71",
         "name": "Karolis",
+        "sourceDue": "2026-08-16",
         "effectiveDate": "2026-08-16",
+        "rescheduledFromOverdue": false,
         "signedCents": -3779131,
         "dated": true,
         "horizonMember": true,
         "appliedCount": 1
       },
       {
-        "uid": "H2:2026-08-16:WeGenerate:in2753649",
+        "uid": "c0c125512e4e4e58",
         "name": "WeGenerate",
+        "sourceDue": "2026-08-16",
         "effectiveDate": "2026-08-16",
+        "rescheduledFromOverdue": false,
         "signedCents": 2753649,
         "dated": true,
         "horizonMember": true,
         "appliedCount": 1
       },
       {
-        "uid": "H3:2026-08-15:SelectQuote Insurance Services:in1260000",
+        "uid": "a25ec10650b7a918",
         "name": "SelectQuote Insurance Services",
+        "sourceDue": "2026-08-15",
         "effectiveDate": "2026-08-15",
+        "rescheduledFromOverdue": false,
         "signedCents": 1260000,
         "dated": true,
         "horizonMember": true,
         "appliedCount": 1
       },
       {
-        "uid": "H4:2026-08-16:Cymry Marketing LLC:in435283",
+        "uid": "5f6516bfc02bac13",
         "name": "Cymry Marketing LLC",
+        "sourceDue": "2026-08-16",
         "effectiveDate": "2026-08-16",
+        "rescheduledFromOverdue": false,
         "signedCents": 435283,
         "dated": true,
         "horizonMember": true,
         "appliedCount": 1
       },
       {
-        "uid": "H5:2026-08-16:Advance Client Solutions (ACS):in78600",
+        "uid": "42b04ee42ad855e7",
         "name": "Advance Client Solutions (ACS)",
+        "sourceDue": "2026-08-16",
         "effectiveDate": "2026-08-16",
+        "rescheduledFromOverdue": false,
         "signedCents": 78600,
         "dated": true,
         "horizonMember": true,
         "appliedCount": 1
       },
       {
-        "uid": "H6:2026-08-11:Worthman Watches:out62537",
+        "uid": "c98baea48d8dc088",
         "name": "Worthman Watches",
-        "effectiveDate": "2026-08-11",
+        "sourceDue": "2026-08-11",
+        "effectiveDate": "2026-08-13",
+        "rescheduledFromOverdue": true,
         "signedCents": -62537,
         "dated": true,
         "horizonMember": true,
         "appliedCount": 1
       },
       {
-        "uid": "H7:2026-07-28:Worthman Watches:out38666",
+        "uid": "09b1513e3e6933ac",
         "name": "Worthman Watches",
-        "effectiveDate": "2026-07-28",
+        "sourceDue": "2026-07-28",
+        "effectiveDate": "2026-08-13",
+        "rescheduledFromOverdue": true,
         "signedCents": -38666,
         "dated": true,
         "horizonMember": true,
         "appliedCount": 1
       },
       {
-        "uid": "H8:2026-08-16:Sabal/Synergy:in36000",
+        "uid": "e26e35b3a3406639",
         "name": "Sabal/Synergy",
+        "sourceDue": "2026-08-16",
         "effectiveDate": "2026-08-16",
+        "rescheduledFromOverdue": false,
         "signedCents": 36000,
         "dated": true,
         "horizonMember": true,
         "appliedCount": 1
       },
       {
-        "uid": "H9:2026-08-18:AgencyPro LLC (ACA):in1798800",
+        "uid": "c749537d4e4841b1",
         "name": "AgencyPro LLC (ACA)",
+        "sourceDue": "2026-08-18",
         "effectiveDate": "2026-08-18",
+        "rescheduledFromOverdue": false,
         "signedCents": 1798800,
         "dated": true,
         "horizonMember": true,
         "appliedCount": 1
       },
       {
-        "uid": "H10:2026-08-23:Sabal/Synergy:in348000",
+        "uid": "16d45a3263c1939f",
         "name": "Sabal/Synergy",
+        "sourceDue": "2026-08-23",
         "effectiveDate": "2026-08-23",
+        "rescheduledFromOverdue": false,
         "signedCents": 348000,
         "dated": false,
         "horizonMember": true,
         "appliedCount": 1
       },
       {
-        "uid": "H11:2026-08-18:Worthman Watches:out123322",
+        "uid": "444b492183ad3332",
         "name": "Worthman Watches",
+        "sourceDue": "2026-08-18",
         "effectiveDate": "2026-08-18",
+        "rescheduledFromOverdue": false,
         "signedCents": -123322,
         "dated": true,
         "horizonMember": true,
         "appliedCount": 1
       },
       {
-        "uid": "H12:2026-08-18:Persistent Policies:in84504",
+        "uid": "7f20284f9d678734",
         "name": "Persistent Policies",
+        "sourceDue": "2026-08-18",
         "effectiveDate": "2026-08-18",
+        "rescheduledFromOverdue": false,
         "signedCents": 84504,
         "dated": true,
         "horizonMember": true,
         "appliedCount": 1
       },
       {
-        "uid": "H13:2026-08-18:Moonlime - ACA/FE:in24468",
+        "uid": "ff1c826383e05b08",
         "name": "Moonlime - ACA/FE",
+        "sourceDue": "2026-08-18",
         "effectiveDate": "2026-08-18",
+        "rescheduledFromOverdue": false,
         "signedCents": 24468,
         "dated": true,
         "horizonMember": true,
         "appliedCount": 1
       },
       {
-        "uid": "H14:2026-08-24:AgencyPro LLC (ACA):in1282800",
+        "uid": "1c31c6390ea7c94f",
         "name": "AgencyPro LLC (ACA)",
+        "sourceDue": "2026-08-24",
         "effectiveDate": "2026-08-24",
+        "rescheduledFromOverdue": false,
         "signedCents": 1282800,
         "dated": false,
         "horizonMember": true,
         "appliedCount": 1
       },
       {
-        "uid": "H15:2026-08-26:Worthman Watches:out80307",
+        "uid": "142ed41274a466b7",
         "name": "Worthman Watches",
+        "sourceDue": "2026-08-26",
         "effectiveDate": "2026-08-26",
+        "rescheduledFromOverdue": false,
         "signedCents": -80307,
         "dated": true,
         "horizonMember": true,
         "appliedCount": 1
       },
       {
-        "uid": "H16:2026-08-26:Verve Health Solutions (STRM):in77000",
+        "uid": "021eb270c70813bb",
         "name": "Verve Health Solutions (STRM)",
+        "sourceDue": "2026-08-26",
         "effectiveDate": "2026-08-26",
+        "rescheduledFromOverdue": false,
         "signedCents": 77000,
         "dated": true,
         "horizonMember": true,
         "appliedCount": 1
       },
       {
-        "uid": "H17:2026-08-26:Persistent Policies:in35280",
+        "uid": "f8e8a1fcf82ecd8d",
         "name": "Persistent Policies",
+        "sourceDue": "2026-08-26",
         "effectiveDate": "2026-08-26",
+        "rescheduledFromOverdue": false,
         "signedCents": 35280,
         "dated": true,
         "horizonMember": true,
         "appliedCount": 1
       },
       {
-        "uid": "H18:2026-08-26:Moonlime - ACA/FE:in13402",
+        "uid": "ddc63997e1b399b0",
         "name": "Moonlime - ACA/FE",
+        "sourceDue": "2026-08-26",
         "effectiveDate": "2026-08-26",
+        "rescheduledFromOverdue": false,
         "signedCents": 13402,
         "dated": true,
         "horizonMember": true,
         "appliedCount": 1
       },
       {
-        "uid": "H19:2026-09-01:vendor cycles accruing:out3359780",
+        "uid": "0a629489ee9adc23",
         "name": "vendor cycles accruing",
+        "sourceDue": "2026-09-01",
         "effectiveDate": "2026-09-01",
+        "rescheduledFromOverdue": false,
         "signedCents": -3359780,
         "dated": false,
         "horizonMember": true,
         "appliedCount": 1
       },
       {
-        "uid": "H20:2026-09-02:Scalability:out1974142",
+        "uid": "6f4bab1ce6065c61",
         "name": "Scalability",
+        "sourceDue": "2026-09-02",
         "effectiveDate": "2026-09-02",
+        "rescheduledFromOverdue": false,
         "signedCents": -1974142,
         "dated": true,
         "horizonMember": true,
         "appliedCount": 1
       },
       {
-        "uid": "H21:2026-09-01:Verve Health Solutions (STRM):in56000",
+        "uid": "fbb16d90fb90b1fe",
         "name": "Verve Health Solutions (STRM)",
+        "sourceDue": "2026-09-01",
         "effectiveDate": "2026-09-01",
+        "rescheduledFromOverdue": false,
         "signedCents": 56000,
         "dated": false,
         "horizonMember": true,
         "appliedCount": 1
       },
       {
-        "uid": "H22:2026-09-01:Persistent Policies:in43680",
+        "uid": "01fee13b87522a1a",
         "name": "Persistent Policies",
+        "sourceDue": "2026-09-01",
         "effectiveDate": "2026-09-01",
+        "rescheduledFromOverdue": false,
         "signedCents": 43680,
         "dated": false,
         "horizonMember": true,
         "appliedCount": 1
       },
       {
-        "uid": "H23:2026-09-01:Moonlime - ACA/FE:in5600",
+        "uid": "5031313840c59693",
         "name": "Moonlime - ACA/FE",
+        "sourceDue": "2026-09-01",
         "effectiveDate": "2026-09-01",
+        "rescheduledFromOverdue": false,
         "signedCents": 5600,
         "dated": false,
         "horizonMember": true,
         "appliedCount": 1
       },
       {
-        "uid": "B0:2026-09-15:Karolis:out2419048",
+        "uid": "37893738c33ef91b",
         "name": "Karolis",
+        "sourceDue": "2026-09-15",
         "effectiveDate": "2026-09-15",
+        "rescheduledFromOverdue": false,
         "signedCents": -2419048,
         "dated": true,
         "horizonMember": false,
         "appliedCount": 0
       },
       {
-        "uid": "B1:2026-09-26:Karolis:out1522393",
+        "uid": "2feca8898a7c7fd0",
         "name": "Karolis",
+        "sourceDue": "2026-09-26",
         "effectiveDate": "2026-09-26",
+        "rescheduledFromOverdue": false,
         "signedCents": -1522393,
         "dated": true,
         "horizonMember": false,
         "appliedCount": 0
       },
       {
-        "uid": "B2:2026-09-16:WeGenerate:in1227255",
+        "uid": "1a9230dd22e00c93",
         "name": "WeGenerate",
+        "sourceDue": "2026-09-16",
         "effectiveDate": "2026-09-16",
+        "rescheduledFromOverdue": false,
         "signedCents": 1227255,
         "dated": false,
         "horizonMember": false,
         "appliedCount": 0
       },
       {
-        "uid": "B3:2026-09-15:SelectQuote Insurance Services:in330000",
+        "uid": "d7590b02d1962892",
         "name": "SelectQuote Insurance Services",
+        "sourceDue": "2026-09-15",
         "effectiveDate": "2026-09-15",
+        "rescheduledFromOverdue": false,
         "signedCents": 330000,
         "dated": true,
         "horizonMember": false,
         "appliedCount": 0
       },
       {
-        "uid": "B4:2026-09-16:Cymry Marketing LLC:in198548",
+        "uid": "b19fa0d1c92eaccd",
         "name": "Cymry Marketing LLC",
+        "sourceDue": "2026-09-16",
         "effectiveDate": "2026-09-16",
+        "rescheduledFromOverdue": false,
         "signedCents": 198548,
         "dated": false,
         "horizonMember": false,
         "appliedCount": 0
       },
       {
-        "uid": "B5:2026-10-16:SelectQuote Insurance Services:in120000",
+        "uid": "bea7f13ab9f2047f",
         "name": "SelectQuote Insurance Services",
+        "sourceDue": "2026-10-16",
         "effectiveDate": "2026-10-16",
+        "rescheduledFromOverdue": false,
         "signedCents": 120000,
         "dated": false,
         "horizonMember": false,
         "appliedCount": 0
       },
       {
-        "uid": "B6:2026-09-16:Advance Client Solutions (ACS):in96000",
+        "uid": "e5b0fb054ee52202",
         "name": "Advance Client Solutions (ACS)",
+        "sourceDue": "2026-09-16",
         "effectiveDate": "2026-09-16",
+        "rescheduledFromOverdue": false,
         "signedCents": 96000,
         "dated": false,
         "horizonMember": false,
@@ -305,7 +368,7 @@
       "pass": true,
       "values": {
         "command": "npx tsx --test \"lib/finance/__tests__/runway-marks.test.ts\" \"lib/wealth/__tests__/position-view.test.ts\"",
-        "pass": 11,
+        "pass": 13,
         "fail": 0,
         "exitCode": 0
       }
@@ -325,7 +388,7 @@
       "pass": true,
       "values": {
         "movementCount": 24,
-        "ledgerDigest": "7d1680745914b836",
+        "ledgerDigest": "5192d4b853e16a9f",
         "ending": -11241.01
       }
     },
@@ -334,49 +397,87 @@
       "entity": "QLG Media",
       "pass": true,
       "values": {
-        "recomputedDaily": [
+        "forecastStart": "2026-08-13",
+        "runtimeSeries": [
           {
-            "date": "2026-07-28",
-            "closeUsd": 40330.5
-          },
-          {
-            "date": "2026-08-11",
-            "closeUsd": 39705.13
+            "date": "2026-08-13",
+            "closeCents": 3970513
           },
           {
             "date": "2026-08-15",
-            "closeUsd": 52305.13
+            "closeCents": 5230513
           },
           {
             "date": "2026-08-16",
-            "closeUsd": 6439.16
+            "closeCents": 643916
           },
           {
             "date": "2026-08-18",
-            "closeUsd": 24283.66
+            "closeCents": 2428366
           },
           {
             "date": "2026-08-23",
-            "closeUsd": 27763.66
+            "closeCents": 2776366
           },
           {
             "date": "2026-08-24",
-            "closeUsd": 40591.66
+            "closeCents": 4059166
           },
           {
             "date": "2026-08-26",
-            "closeUsd": 41045.41
+            "closeCents": 4104541
           },
           {
             "date": "2026-09-01",
-            "closeUsd": 8500.41
+            "closeCents": 850041
           },
           {
             "date": "2026-09-02",
-            "closeUsd": -11241.01
+            "closeCents": -1124101
           }
         ],
-        "firstZeroCross": {
+        "runtimeSeriesSha256": "8636b367df00b3b380e813bd1908b9cabb82e393c856261f7ea86a49d7722f97",
+        "oracleSeries": [
+          {
+            "date": "2026-08-13",
+            "closeCents": 3970513
+          },
+          {
+            "date": "2026-08-15",
+            "closeCents": 5230513
+          },
+          {
+            "date": "2026-08-16",
+            "closeCents": 643916
+          },
+          {
+            "date": "2026-08-18",
+            "closeCents": 2428366
+          },
+          {
+            "date": "2026-08-23",
+            "closeCents": 2776366
+          },
+          {
+            "date": "2026-08-24",
+            "closeCents": 4059166
+          },
+          {
+            "date": "2026-08-26",
+            "closeCents": 4104541
+          },
+          {
+            "date": "2026-09-01",
+            "closeCents": 850041
+          },
+          {
+            "date": "2026-09-02",
+            "closeCents": -1124101
+          }
+        ],
+        "oracleSeriesSha256": "8636b367df00b3b380e813bd1908b9cabb82e393c856261f7ea86a49d7722f97",
+        "seriesEqual": true,
+        "firstProjectedEodCloseBelowZero": {
           "date": "2026-09-02",
           "closeBalance": -11241.01
         },
@@ -384,9 +485,13 @@
           "date": "2026-09-02",
           "balance": -11241.01
         },
-        "endpoint": -11241.01
+        "endpoint": -11241.01,
+        "rescheduledOverdue": {
+          "count": 2,
+          "netUsd": -1012.03
+        }
       },
-      "note": "series is net-daily closes — order-invariant; intra-day sequences are not represented (no settlement times exist in the source)"
+      "note": "runtime series (marks) and independently reduced oracle series carry equal SHA-256; every close >= forecastStart; marks derive from the runtime series"
     },
     {
       "id": "out-of-horizon-excluded",
@@ -448,7 +553,9 @@
           "arRowCount": 12,
           "apRowCount": 5,
           "arRowSumCents": 9335381,
-          "apRowSumCents": 14098500
+          "apRowSumCents": 14098500,
+          "arRowsSha256": "25c157d1d18343d559404fd8a52c572c1fab9cc5aabd5a7355f7a1aa17a0bbfc",
+          "apRowsSha256": "4aeb956595465158320191e3ceee20019ad88a9d8ca0ff5519df7c3c69d21383"
         },
         "billing": {
           "consumer": "billing",
@@ -464,9 +571,36 @@
           "arRowCount": 12,
           "apRowCount": 5,
           "arRowSumCents": 9335381,
-          "apRowSumCents": 14098500
-        }
-      }
+          "apRowSumCents": 14098500,
+          "arRowsSha256": "25c157d1d18343d559404fd8a52c572c1fab9cc5aabd5a7355f7a1aa17a0bbfc",
+          "apRowsSha256": "4aeb956595465158320191e3ceee20019ad88a9d8ca0ff5519df7c3c69d21383"
+        },
+        "financeOutput": {
+          "comingIn": {
+            "overdueCents": 2411442,
+            "currentCents": 6923939,
+            "accruingCents": 3377883,
+            "totalCents": 12713264
+          },
+          "goingOut": {
+            "overdueCents": 0,
+            "currentCents": 14098500,
+            "accruingCents": 3359780,
+            "totalCents": 17458280
+          }
+        },
+        "financeOutputSha256": "1fb80277b2b2e1c6915600a10533dd18c3ff15afe1c7b89ad373d09289d3d42c",
+        "billingOutput": {
+          "lateInCents": 2411442,
+          "lateOutCents": 0,
+          "lateInRows": 3,
+          "lateOutRows": 0,
+          "readyCents": 0,
+          "waitingCents": 0
+        },
+        "billingOutputSha256": "f30f12dfbae9dfabfdd17b2e318acf44fc2b3014e5b2d4dedf2486998d43cdb4"
+      },
+      "note": "both consumers read row sets with identical SHA-256; their outputs are computed and hashed independently"
     },
     {
       "id": "finance-billing-pastdue-parity",
@@ -479,9 +613,43 @@
         "billingLateOutCents": 0,
         "apOverdueRecomputedFromAllRowsCents": 0,
         "apAgingPresent": true,
-        "apRowCount": 5
+        "apRowCount": 5,
+        "redactedApRows": [
+          {
+            "partner": "ae92320760cc",
+            "totalCents": 4110998,
+            "currentCents": 4110998,
+            "overdueCents": 0
+          },
+          {
+            "partner": "5c1078b5859e",
+            "totalCents": 7720572,
+            "currentCents": 7720572,
+            "overdueCents": 0
+          },
+          {
+            "partner": "6bcdfb0afd3f",
+            "totalCents": -12044,
+            "currentCents": 0,
+            "overdueCents": 0
+          },
+          {
+            "partner": "814fe33f11b3",
+            "totalCents": 1974142,
+            "currentCents": 1974142,
+            "overdueCents": 0
+          },
+          {
+            "partner": "b3ba430c0f16",
+            "totalCents": 304832,
+            "currentCents": 304832,
+            "overdueCents": 0
+          }
+        ],
+        "apRowsSha256": "4aeb956595465158320191e3ceee20019ad88a9d8ca0ff5519df7c3c69d21383",
+        "redactedArRowsSha256": "25c157d1d18343d559404fd8a52c572c1fab9cc5aabd5a7355f7a1aa17a0bbfc"
       },
-      "note": "a $0 overdue A/P verdict requires apAgingPresent=true and the recomputation over every A/P row — absence would report unknown, not zero"
+      "note": "a $0 overdue A/P verdict requires apAgingPresent=true and the recomputation over every redacted A/P row above — absence would report unknown, not zero"
     },
     {
       "id": "contribution-metric-contract",
@@ -507,7 +675,7 @@
           "net profit",
           "operating profit"
         ],
-        "valueCents": 1609963
+        "valueCents": 1609949
       }
     },
     {
